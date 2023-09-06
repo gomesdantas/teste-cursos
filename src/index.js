@@ -23,7 +23,7 @@ root.render(
         <Route path='/informatica' element={<Info/>} />
         <Route path='/secretariado' element={<Sec />} />
         <Route path='/comunicacao' element={<Cv />} />
-        <Route path='/administração' element={<Adm />} />
+        <Route path='/administracao' element={<Adm />} />
       </Routes>
     </BrowserRouter>
 
