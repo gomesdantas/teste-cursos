@@ -24,15 +24,18 @@ return(
 
 {location.state?.length && location.state.map(item =>
         <div>{item}</div>
-      )}
+      )} 
+      
+
+      
 </div>
      
      <div className='pontuacao'>
 
       <h5>SUA PONTUAÇÃO</h5>
      
-     <div className="carac">
-<h4> CARACTERÍSTICAS DO ADMINISTRADOR</h4>
+     <div className="caract">
+<h4> CARACTERÍSTICAS DE ADMINISTRAÇÃO</h4>
 
 <p>Parabéns, o administrador é uma pessoa organizada e planejada, que sabe lidar bem com metas, objetivos, prazos, planilhas, relatórios, diferentes demandas e possíveis contratempos, é proativo, flexível, criativo e inovador. É ético, líder, sabe se comunicar bem, é disciplinado, integra bem a teoria e a prática, é crítico e reflexivo, além de ser um tomador de decisões, está antenado em tudo o que acontece no mundo, tem uma visão de futuro aguçada e é informado.</p>
 </div>
