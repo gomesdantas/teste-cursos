@@ -8,7 +8,7 @@ export const data = [
       },
       {
         texto: 'b) Procurar soluções criativas e originais.',
-        curso: 'Comunicação visual'
+        curso: 'Comunicação Visual'
       },
       {
         texto: 'c) Encontrar um equilíbrio entre análise e criatividade.',
@@ -34,7 +34,7 @@ export const data = [
       },
       {
         texto: 'c) Valorizo a contribuição criativa de todos.',
-        curso: 'Comunicaçao Visual'
+        curso: 'Comunicação Visual'
       },
       {
         texto: 'd) Posso liderar ou colaborar, dependendo da situação',
@@ -47,7 +47,7 @@ export const data = [
     respostas: [
       {
         texto: 'a) Cria uma experiência visual única.',
-        curso: 'Comunicação visual'
+        curso: 'Comunicação Visual'
       },
       {
         texto: 'b) Planejar cuidadosamente a logística.',
@@ -80,7 +80,7 @@ export const data = [
       },
       {
         texto: 'd) Criar um resultado visualmente impactante. ',
-        curso: 'Comunicação visual'
+        curso: 'Comunicação Visual'
       }
     ]
   },
@@ -89,7 +89,7 @@ export const data = [
     respostas: [
       {
         texto: 'a) Exploro elas usando as da forma mais criativa e funcional.',
-        curso: 'Comunicação visual'
+        curso: 'Comunicação Visual'
       },
       {
         texto: 'b)Tenho interesse tanto na parte técnica quanto na apliacação prática.',
@@ -118,7 +118,7 @@ export const data = [
       },
       {
         texto: 'c) Criatividade.',
-        curso: 'Comunicaçao Visual'
+        curso: 'Comunicação Visual'
       },
       {
         texto: 'd) Organização',
@@ -139,7 +139,7 @@ export const data = [
       },
       {
         texto: 'c) Encontrar soluções originais e engenhosas.',
-        curso: 'Comunicaçao Visual'
+        curso: 'Comunicação Visual'
       },
       {
         texto: 'd) Combinar soluções técnicas com criatividade',
@@ -160,7 +160,7 @@ export const data = [
       },
       {
         texto: 'c) Aplicar conhecimentos em projetos com liberdade para mostrar suas hablidades criativas.',
-        curso: 'Comunicaçao Visual'
+        curso: 'Comunicação Visual'
       },
       {
         texto: 'd)  Entender os conceitos teóricos em profundidade',
@@ -181,7 +181,7 @@ export const data = [
       },
       {
         texto: 'c) Espaço inspirador e propício á ideias férteis.',
-        curso: 'Comunicaçao Visual'
+        curso: 'Comunicação Visual'
       },
       {
         texto: 'd)Ambiente colaborativo que auxilie na organização e comunicação ',
@@ -194,7 +194,7 @@ export const data = [
     respostas: [
       {
         texto: 'a) Por sua criatividade e maneira de se expressar.',
-        curso: 'Comunicação visual'
+        curso: 'Comunicação Visual'
       },
       {
         texto: 'b) Pelas suas ótimas habilidades em comunicação.',

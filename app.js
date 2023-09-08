@@ -1,14 +1,8 @@
 
-let respostas = ['CV', 'CV', 'Informação', 'Informação', 'CV', 'Administração'];
-//
-//
-//
-//
+let respostas = ['CV', 'CV', 'Informação', 'Informação', 'CV', 'Administração', 'Informação', 'Informação'];
 
-let cursos = [];
-for (let item of respostas) {
-  let curso = cursos.find(c => c.nome == item);
-    
-}
-
+//
+//
+//
+//
 

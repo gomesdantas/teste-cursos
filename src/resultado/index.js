@@ -1,87 +1,81 @@
 import './index.scss';
 import Welcome from "../components/welcome.js";
-import { useLocation } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 
 export default function Resultado() {
-  // const [respostas, setRespostas] = useState()
 
   let location = useLocation();
+  let navigate = useNavigate();
 
-  console.log(location.state);
+
+
+  useState(() => {
+    setTimeout(mostrarCurso, 2000);
+  }, [])
+
+
+  function mostrarCurso() {
+    let cursos = agrupar(location.state);
+    let maior = verMaior(cursos);
+
+    switch (maior.nome) {
+      case 'Administração':
+        navigate('/administracao');
+        break;
+
+      case 'Informática':
+        alert('oi')
+        navigate('/informatica');
+        break;
+
+      case 'Secretariado':
+        navigate('/secretariado');
+        break;
+
+      case 'Comunicação Visual':
+        navigate('/comunicacao');
+        break;
+
+    }
+  }
+
+
+
+
+  function agrupar(respostas) {
+    let cursos = [];
+    for (let item of respostas) {
+      let curso = cursos.find(c => c.nome == item);
+      if (!curso) {
+        cursos.push({ nome: item, qtd: 1 })
+      }
+      else {
+        curso.qtd++;
+      }
+    }
+    return cursos;
+  }
+
+
+  function verMaior(cursos) {
+    let maior = { nome: '', qtd: 0 };
+    for (let item of cursos) {
+      if (item.qtd > maior.qtd)
+        maior = item;
+    }
+    return maior;
+  }
+
+
+
 
   return (
     <div className="pages-resultado">
-      <div className='faixa'>
-        <Welcome />
-      </div>
-
-      <div className="container">
-        <div className='left'>
-        <div className='textos'>
-
-<h1>SEU RESULTADO. . .</h1>
-
-{location.state?.length && location.state.map(item =>
-        <div>{item}</div>
-      )}
-</div>
-     
-     <div className='pontuacao'>
-
-      <h5>SUA PONTUAÇÃO</h5>
-     
-     
-<h4> CARACTERÍSTICAS DO ADMINISTRADOR</h4>
-
-
-     </div>
-        </div>
-
-<div className='right'>
-<div className='outros'>
-  <h1>PONTUAÇÃO EM OUTROS CURSOS</h1>
-
-
-</div>
-
-<div className='conheca'>
-
-  <h1>CONHEÇA NOSSOS CURSOS</h1>
-<div className='carac'>
-  <div className="img">
-    <a href="https://acaonsfatima.org.br/cursos/informatica/">
-    <img  src="./assets/images/info.png" alt="" />
-    </a>
-    <p>Informática</p>
-
-  </div>
-
-  <div className="img">
-    <a href="https://acaonsfatima.org.br/cursos/secretariado/">
-    <img src="./assets/images/sec.png" alt="" />
-    </a>
-    <p>Secretariado</p>
-  </div>
-
-  <div className="img">
-    <a href="https://acaonsfatima.org.br/cursos/comunicacao-visual/">
-    <img src="./assets/images/cv.png" alt="" />
-    </a>
-    <p>Comunicação Visual</p>
-  </div>
-
-  <div className="img">
-    <a href="https://acaonsfatima.org.br/cursos/administracao-de-empresas/">
-    <img src="./assets/images/adm.png" alt="" />
-    </a>
-    <p>Administração</p>
-  </div>
-  </div>
-</div>
-</div>
-
-      </div>
+      
+      Analisando o melhor curso para você...
+      <i class="fa-solid fa-spinner fa-spin"></i>
+      
     </div>
   )
 
