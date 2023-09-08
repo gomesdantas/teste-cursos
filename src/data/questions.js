@@ -37,7 +37,7 @@ export const data = [
         curso: 'Comunicação Visual'
       },
       {
-        texto: 'd) Posso liderar ou colaborar, dependendo da situação',
+        texto: 'd) Posso liderar ou colaborar, dependendo da situação.',
         curso: 'Secretariado'
       }
     ]
@@ -92,7 +92,7 @@ export const data = [
         curso: 'Comunicação Visual'
       },
       {
-        texto: 'b)Tenho interesse tanto na parte técnica quanto na apliacação prática.',
+        texto: 'b) Tenho interesse tanto na parte técnica quanto na apliacação prática.',
         curso: 'Administração'
       },
       {
@@ -100,7 +100,7 @@ export const data = [
         curso: 'Informática'
       },
       {
-        texto: 'd) Prefiro explorar a funcionalidade e aplicação',
+        texto: 'd) Prefiro explorar a funcionalidade e aplicação.',
         curso: 'Secretariado'
       }
     ]
@@ -109,7 +109,7 @@ export const data = [
     titulo: '6- Qual dessas palavras descreve melhor a sua personalidade no ambiente de trabalho? ',
     respostas: [
       {
-        texto: 'a)Inovação.',
+        texto: 'a) Inovação.',
         curso: 'Informática'
       },
       {
@@ -121,7 +121,7 @@ export const data = [
         curso: 'Comunicação Visual'
       },
       {
-        texto: 'd) Organização',
+        texto: 'd) Organização.',
         curso: 'Secretariado'
       }
     ]
@@ -142,7 +142,7 @@ export const data = [
         curso: 'Comunicação Visual'
       },
       {
-        texto: 'd) Combinar soluções técnicas com criatividade',
+        texto: 'd) Combinar soluções técnicas com criatividade.',
         curso: 'Secretariado'
       }
     ]
@@ -163,13 +163,13 @@ export const data = [
         curso: 'Comunicação Visual'
       },
       {
-        texto: 'd)  Entender os conceitos teóricos em profundidade',
+        texto: 'd) Entender os conceitos teóricos em profundidade.',
         curso: 'Administração'
       }
     ]
   },
   {
-    titulo: '9- Qual ambiente de trabalgo vocÊ prefere ? ',
+    titulo: '9- Qual ambiente de trabalho você prefere? ',
     respostas: [
       {
         texto: 'a) Ambiente corporaivo e estruturado.',
@@ -184,13 +184,13 @@ export const data = [
         curso: 'Comunicação Visual'
       },
       {
-        texto: 'd)Ambiente colaborativo que auxilie na organização e comunicação ',
+        texto: 'd) Ambiente colaborativo que auxilie na organização e comunicação. ',
         curso: 'Secretariado'
       }
     ]
   },
   {
-    titulo: '10- Qual ambiente de trabalgo vocÊ prefere ? ',
+    titulo: '10- Você omagina se destacar profissionalmente por: ? ',
     respostas: [
       {
         texto: 'a) Por sua criatividade e maneira de se expressar.',
