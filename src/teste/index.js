@@ -36,6 +36,10 @@ export default function Teste() {
 
 
       <div className='container'>
+<<<<<<< HEAD
+=======
+        <a href='http://localhost:3000/' className="volta">Voltar</a>
+>>>>>>> 784853822e3a06ffbedc355e5b9de6e734fdfde3
         <div className='questions'>
 
           <p>{data[perguntaAtual].titulo}</p>
