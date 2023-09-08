@@ -172,7 +172,7 @@ export const data = [
     titulo: '9- Qual ambiente de trabalho você prefere? ',
     respostas: [
       {
-        texto: 'a) Ambiente corporaivo e estruturado.',
+        texto: 'a) Ambiente corporativo e estruturado.',
         curso: 'Administração'
       },
       {
@@ -190,7 +190,7 @@ export const data = [
     ]
   },
   {
-    titulo: '10- Você omagina se destacar profissionalmente por: ? ',
+    titulo: '10- Você imagina se destacar profissionalmente por: ',
     respostas: [
       {
         texto: 'a) Por sua criatividade e maneira de se expressar.',
@@ -201,7 +201,7 @@ export const data = [
         curso:'Secretariado'
       },
       {
-        texto: 'c) Pela sua objetividade e rapidexem achar soluções.',
+        texto: 'c) Pela sua objetividade e rapidez em achar soluções.',
         curso: 'Administração'
       },
       {
