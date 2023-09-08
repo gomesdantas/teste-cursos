@@ -1,0 +1,34 @@
+
+.pages-resultado{
+width: 100%;
+height: auto;
+display: flex;
+flex-direction: column;
+
+.faixa{
+  margin-bottom: 50px;
+    height: 80px;
+   width: 100%;
+    padding: 15px 40px;
+    display: flex;
+  flex-direction: row;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: rgb(255, 255, 255);
+   }
+
+  
+
+.analise{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.analise>p{
+  margin-top: 150px;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+}

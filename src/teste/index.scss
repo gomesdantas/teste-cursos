@@ -1,0 +1,84 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.page-teste {
+
+    .volta {
+
+ margin-left: 200px;
+        
+        margin-top: 40px;
+        padding: 8px 20px;
+        border-radius: 30px;
+        color: #D28147F2;
+        border: 1px solid #b3b3b3;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 2px 3px 2px 1px rgba(0, 0, 0, 0.2);
+    }
+
+    .faixa {
+        margin-bottom: 50px;
+        height: 80px;
+        width: 100%;
+        padding: 15px 40px;
+        display: flex;
+        flex-direction: row;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        background-color: rgb(255, 255, 255);
+      
+    }
+
+
+    tbody {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    td {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 30px;
+        margin-bottom: 40px;
+        box-shadow: 2px 3px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 20px;
+        padding: 25px 30px;
+        border: 1px solid #b3b3b3;
+    }
+
+    table {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+
+    .questions {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .container {
+        width: 100%;
+        height: 90vh;
+    }
+
+    .questions>p {
+        display: flex;
+        text-align: center;
+        font-size: 25px;
+        margin-top: 100px;
+    }
+
+    
+td{
+    height: 80px;
+    text-align: center;
+    width: 450px;
+}
+}
