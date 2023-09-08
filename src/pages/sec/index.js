@@ -15,11 +15,7 @@ return(
         <div className='left'>
         <div className='textos'>
 
-<<<<<<< HEAD
 <h1>SECRETARIADO</h1>
-=======
-<h1>SEU RESULTADO. . .</h1>
->>>>>>> 784853822e3a06ffbedc355e5b9de6e734fdfde3
 
 
 </div>

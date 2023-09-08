@@ -25,11 +25,7 @@ export default function Resultado() {
         break;
 
       case 'Informática':
-<<<<<<< HEAD
-
-=======
         alert('oi')
->>>>>>> 784853822e3a06ffbedc355e5b9de6e734fdfde3
         navigate('/informatica');
         break;
 
@@ -75,7 +71,6 @@ export default function Resultado() {
 
 
   return (
-<<<<<<< HEAD
 
     <div className="pages-resultado">
       <div className='faixa'>
@@ -88,12 +83,6 @@ export default function Resultado() {
       <i class="fa-solid fa-spinner fa-spin"></i>
       </div>
    
-=======
-    <div className="pages-resultado">
-      
-      Analisando o melhor curso para você...
-      <i class="fa-solid fa-spinner fa-spin"></i>
->>>>>>> 784853822e3a06ffbedc355e5b9de6e734fdfde3
       
     </div>
   )

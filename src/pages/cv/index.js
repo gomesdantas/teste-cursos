@@ -16,11 +16,7 @@ return(
         <div className='left'>
         <div className='textos'>
 
-<<<<<<< HEAD
 <h1>COMUNICAÇÃO VISUAL</h1>
-=======
-<h1>SEU RESULTADO. . .</h1>
->>>>>>> 784853822e3a06ffbedc355e5b9de6e734fdfde3
 
 
 </div>
@@ -29,16 +25,8 @@ return(
 
       <h5>SUA PONTUAÇÃO</h5>
      <div className="caract">
-<<<<<<< HEAD
      
 <h4> CARACTERÍSTICAS DA COMUNICAÇÃO VISUAL</h4>
-=======
-
-    
-     
-<h4> CARACTERÍSTICAS DA COMUNICAÇÃO VISUAL</h4>
-
->>>>>>> 784853822e3a06ffbedc355e5b9de6e734fdfde3
 <p> Parabéns! Quem cursa Comunicação visual, são pessoas criativas, que prezam por um bom trabalho e entregam tudo de si em um projeto. Pessoas de comunicação visual tem a capacidade de se comunicar através de elementos gráficos, que costuma utilizar as cores, imagens, movimentos, formas e desenhos com efeitos que ajudam na compreensão da informação. O que é muito importante, porque pode explicar conceitos mais complexos de forma clara e persuasiva.</p>
 </div>
      </div>
