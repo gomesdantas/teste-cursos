@@ -22,9 +22,9 @@ export default function Teste() {
     if (perguntaAtual == data.length - 1) {
       navigation('/resultado', { state: [...respostasUsuario, curso] })
     }
-    
+
   }
-  
+
 
 
   return (
@@ -38,34 +38,30 @@ export default function Teste() {
       <div className='container'>
         <div className='questions'>
 
-          <p>{data[perguntaAtual].titulo}</p>
-        
-          <table >
-            <tbody >
-              <tr >
-                
-                <td onClick={() => adicionarResposta(data[perguntaAtual].respostas[0].curso)} style={estiloCursorPointer}>
-                  {data[perguntaAtual].respostas[0].texto}
-                </td>
+          <p id='questao'>{data[perguntaAtual].titulo}</p>
 
-                <td onClick={() => adicionarResposta(data[perguntaAtual].respostas[1].curso)} style={estiloCursorPointer}>
-                  {data[perguntaAtual].respostas[1].texto}
-                </td>
 
-              </tr>
-              <tr>
+          <div className='perguntas'>
+            <div className='cima'>
+              <div id='pergunta' className='pergunta' onClick={() => adicionarResposta(data[perguntaAtual].respostas[0].curso)} style={estiloCursorPointer}>
+                {data[perguntaAtual].respostas[0].texto}
+              </div>
 
-                <td onClick={() => adicionarResposta(data[perguntaAtual].respostas[2].curso)} style={estiloCursorPointer}>
-                  {data[perguntaAtual].respostas[2].texto}
-                </td>
-                
-                <td onClick={() => adicionarResposta(data[perguntaAtual].respostas[3].curso)} style={estiloCursorPointer}>
-                  {data[perguntaAtual].respostas[3].texto}
-                </td>
+              <div id='pergunta' className='pergunta' onClick={() => adicionarResposta(data[perguntaAtual].respostas[1].curso)} style={estiloCursorPointer}>
+                {data[perguntaAtual].respostas[1].texto}
+              </div>
+            </div>
+            <div className="baixo" >
 
-              </tr>
-            </tbody>
-          </table>
+              <div id='pergunta' className='pergunta' onClick={() => adicionarResposta(data[perguntaAtual].respostas[2].curso)} style={estiloCursorPointer}>
+                {data[perguntaAtual].respostas[2].texto}
+              </div>
+
+              <div id='pergunta' className='pergunta' onClick={() => adicionarResposta(data[perguntaAtual].respostas[3].curso)} style={estiloCursorPointer}>
+                {data[perguntaAtual].respostas[3].texto}
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

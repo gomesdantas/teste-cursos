@@ -8,37 +8,86 @@ export default function Resultado() {
   let location = useLocation();
   let navigate = useNavigate();
 
-
-
   useState(() => {
     setTimeout(mostrarCurso, 2000);
   }, [])
 
 
+  let pontuacaoinfo=0;
+  let pontuacaocv=0;
+  let pontuacaoadm=0;
+  let pontuacaosec=0;
+
+
+  function Contador() {
+    for (let item = 0; item < location.state.length; item++) {
+      {
+        let i = location.state[item];
+
+        if (i=='Administração') {
+          pontuacaoadm++;
+        }
+
+        if (i=='Informática') {
+         pontuacaoinfo++;
+        }
+
+        if (i=='Comunicação Visual') {
+          pontuacaocv++;
+        }
+        if (i=='Secretariado') {
+         pontuacaosec++;
+        }
+      }
+
+    }
+    
+  }
+
   function mostrarCurso() {
     let cursos = agrupar(location.state);
     let maior = verMaior(cursos);
+    Contador()
 
     switch (maior.nome) {
       case 'Administração':
-        navigate('/administracao');
+        navigate('/administracao', {state: {
+          adm: pontuacaoadm,
+          cv: pontuacaocv,
+          info: pontuacaoinfo,
+          sec: pontuacaosec
+        }});
         break;
 
       case 'Informática':
-        navigate('/informatica');
+        navigate('/informatica', {state:{
+          adm: pontuacaoadm,
+          cv: pontuacaocv,
+          info: pontuacaoinfo,
+          sec: pontuacaosec
+        }});
         break;
 
       case 'Secretariado':
-        navigate('/secretariado');
+        navigate('/secretariado', {state:{
+          sec: pontuacaosec,
+          adm: pontuacaoadm,
+          cv: pontuacaocv,
+          info: pontuacaoinfo         
+        }});
         break;
 
       case 'Comunicação Visual':
-        navigate('/comunicacao');
+        navigate('/comunicacao', {state:{
+          cv: pontuacaocv,
+          sec: pontuacaosec,
+          adm: pontuacaoadm,
+          info: pontuacaoinfo
+        }});
         break;
 
     }
   }
-
 
   function agrupar(respostas) {
     let cursos = [];
@@ -54,7 +103,6 @@ export default function Resultado() {
     return cursos;
   }
 
-
   function verMaior(cursos) {
     let maior = { nome: '', qtd: 0 };
     for (let item of cursos) {
@@ -64,9 +112,6 @@ export default function Resultado() {
     return maior;
   }
 
-
-
-
   return (
 
     <div className="pages-resultado">
@@ -75,15 +120,9 @@ export default function Resultado() {
       <p></p>
       </div>
       <div className='analise'>
-      
       <p> Analisando o melhor curso para você...</p>
       <i class="fa-solid fa-spinner fa-spin"></i>
       </div>
-   
-      
     </div>
   )
-
-
-
 }

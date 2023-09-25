@@ -1,8 +1,12 @@
+import { useLocation } from "react-router-dom";
 import Welcome from "../../components/welcome";
 import '../sec/index.scss';
 
 export default function Sec(){
   
+  let location = useLocation();
+  let respostasDapessoa = location.state;
+  console.log(location.state);
 
 
 return(
@@ -11,11 +15,11 @@ return(
         <div className="faixa">
 <Welcome/>
         </div>
-        <div className="container">
+        <div id="container" className="container">
         <div className='left'>
         <div className='textos'>
 
-<h1>SECRETARIADO</h1>
+<h2>SECRETARIADO</h2>
 
 
 </div>
@@ -23,6 +27,7 @@ return(
      <div className='pontuacao'>
 
       <h5>SUA PONTUAÇÃO</h5>
+      <h4 id="pot">{respostasDapessoa.sec}/10</h4>
      <div className="caract">
 
     
@@ -34,12 +39,19 @@ return(
      </div>
         </div>
 
-<div className='right'>
+<div id="right" className='right'>
 <div className='outros'>
   <h1>PONTUAÇÃO EM OUTROS CURSOS</h1>
+  <div className="outros-curso">
+  <p> Pontuação em Comunicação Visual: {respostasDapessoa.cv}/10</p>
+<p> Pontuação em Informática: {respostasDapessoa.info}/10</p>
+<p>  Pontuação em Administração: {respostasDapessoa.adm}/10</p>
 
+  </div>
+  
 
 </div>
+
 
 <div className='conheca'>
 
@@ -47,7 +59,10 @@ return(
 <div className='carac'>
   <div className="img">
     <a href="https://acaonsfatima.org.br/cursos/informatica/">
-    <img  src="./assets/images/info.png" alt="" />
+      <div className="redondo">
+      <img   className="tamanho" src="./assets/images/computer-solid.svg" alt="" />
+      </div>
+   
     </a>
     <p>Informática</p>
 
@@ -55,21 +70,30 @@ return(
 
   <div className="img">
     <a href="https://acaonsfatima.org.br/cursos/secretariado/">
-    <img src="./assets/images/sec.png" alt="" />
+    <div className="redondo">
+    <img  className="tamanho" src="./assets/images/folder-regular.svg" alt="" />
+    </div>
+   
     </a>
     <p>Secretariado</p>
   </div>
 
   <div className="img">
     <a href="https://acaonsfatima.org.br/cursos/comunicacao-visual/">
-    <img src="./assets/images/cv.png" alt="" />
+    <div className="redondo">
+    <img className="tamanho" src="./assets/images/palette-solid.svg" alt="" />
+      </div>
+   
     </a>
     <p>Comunicação Visual</p>
   </div>
 
   <div className="img">
     <a href="https://acaonsfatima.org.br/cursos/administracao-de-empresas/">
-    <img src="./assets/images/adm.png" alt="" />
+    <div className="redondo-esse">
+    <img className="diminui" src="./assets/images/file-invoice-dollar-solid.svg" alt="" />
+      </div>
+ 
     </a>
     <p>Administração</p>
   </div>

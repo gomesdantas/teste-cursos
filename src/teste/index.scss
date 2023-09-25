@@ -5,21 +5,12 @@
 
 .page-teste {
 
-    .volta {
-
- margin-left: 200px;
-        
-        margin-top: 40px;
-        padding: 8px 20px;
-        border-radius: 30px;
-        color: #D28147F2;
-        border: 1px solid #b3b3b3;
-        background-color: rgb(255, 255, 255);
-        box-shadow: 2px 3px 2px 1px rgba(0, 0, 0, 0.2);
-    }
-
+    background-image: url('../../public/assets/images/image12.png');
+    background-size: 20%;
+   background-position: center;
+    
     .faixa {
-        margin-bottom: 50px;
+       
         height: 80px;
         width: 100%;
         padding: 15px 40px;
@@ -27,32 +18,42 @@
         flex-direction: row;
         box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
         background-color: rgb(255, 255, 255);
-      
+
     }
 
 
-    tbody {
+    .perguntas{
+        display: flex;
+        flex-direction: column;
+        max-width: 900px;
+        width: 100%;
+        
+    }
+
+    .cima{
         display: flex;
         flex-direction: row;
-
+        margin-top: 30px;
     }
 
-    td {
+    .baixo{
+        display: flex;
+        flex-direction: row; 
+    }
+
+     .pergunta{
         display: flex;
         flex-wrap: wrap;
         margin-left: 30px;
         margin-bottom: 40px;
-        box-shadow: 2px 3px 2px 1px rgba(0, 0, 0, 0.2);
-        border-radius: 20px;
-        padding: 25px 30px;
-        border: 1px solid #b3b3b3;
-    }
-
-    table {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 50px;
+        box-shadow: 2px 5px 7px 5px rgba(0, 0, 0, 0.2);
+        border-radius: 10000px;
+        padding: 0px 50px ;
+     height: 80px;
+        width: 100%;
+background-color: rgb(255, 255, 255);
+      align-items: center;
+      
     }
 
 
@@ -61,11 +62,14 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        padding: 40px 0px 0px 30px;
     }
 
     .container {
         width: 100%;
-        height: 90vh;
+        height: 87.7vh;
+   
+        
     }
 
     .questions>p {
@@ -75,10 +79,31 @@
         margin-top: 100px;
     }
 
-    
-td{
-    height: 80px;
-    text-align: center;
-    width: 450px;
+
+   
 }
+
+@media (max-width: 768px) {
+.page-teste{
+    overflow: hidden;
+}
+
+
+    #questao{
+       font-size: 17px;
+       
+       
+    }
+
+.perguntas{
+    max-width: auto;
+ 
+}
+
+    #pergunta{
+        height: 80px;
+      width: 40%;
+      font-size: 15px;
+      text-align: center;
+    }
 }

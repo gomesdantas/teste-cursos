@@ -5,6 +5,11 @@ height: auto;
 display: flex;
 flex-direction: column;
 
+background-image: url('../../public/assets/images/image12.png');
+background-size: 20%;
+background-position: center;
+
+
 .faixa{
   margin-bottom: 50px;
     height: 80px;
@@ -24,11 +29,19 @@ flex-direction: column;
   align-items: center;
   flex-direction: column;
   align-items: center;
+  height: 80vh;
+  width: 100%;
+
 }
 
 .analise>p{
   margin-top: 150px;
   font-size: 30px;
   margin-bottom: 20px;
+  
+}
+
+.analise>i{
+  margin-bottom: 200px;
 }
 }

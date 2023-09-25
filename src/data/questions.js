@@ -3,7 +3,7 @@ export const data = [
     titulo: '1- Quando você se depara com um problema, qual é a melhor abordagem para resolvê-lo?',
     respostas: [
       {
-        texto: 'a) Encontrar maneiras eficientess de resolver.',
+        texto: 'a) Encontrar maneiras eficientes de resolver.',
         curso: 'Administração'
       },
       {
@@ -33,12 +33,13 @@ export const data = [
         curso: 'Administração'
       },
       {
-        texto: 'c) Valorizo a contribuição criativa de todos.',
-        curso: 'Comunicação Visual'
+        texto: 'c) Posso liderar ou colaborar, dependendo da situação.',
+        curso: 'Secretariado'
+       
       },
       {
-        texto: 'd) Posso liderar ou colaborar, dependendo da situação.',
-        curso: 'Secretariado'
+        texto: 'd) Valorizo a contribuição criativa de todos.',
+        curso: 'Comunicação Visual'
       }
     ]
   },
@@ -50,16 +51,17 @@ export const data = [
         curso: 'Comunicação Visual'
       },
       {
-        texto: 'b) Planejar cuidadosamente a logística.',
-        curso: 'Administração'
+        texto: 'b) Visualizar como a atmosfera afetará as pessoas.',
+        curso: 'Secretariado'
       },
       {
         texto: 'c) Equlibrar a estética com funcionalidade.',
         curso: 'Informática'
       },
       {
-        texto: 'd) Visualizar como a atmosfera afetará as pessoas.',
-        curso: 'Secretariado'
+        texto: 'd) Planejar cuidadosamente a logística.',
+        curso: 'Administração'
+        
       }
     ]
   },
@@ -67,8 +69,8 @@ export const data = [
     titulo: '4- Ao planejar uma tarefa, qual destes aspectos você considera mais importante? ',
     respostas: [
       {
-        texto: 'a) Fazer a forma mais inovadora e viável.',
-        curso: 'Informática'
+        texto: 'a) Criar um resultado visualmente impactante. ',
+        curso: 'Comunicação Visual'
       },
       {
         texto: 'b) Garantir que todos os passos sejam seguidos corretamente.',
@@ -79,8 +81,9 @@ export const data = [
         curso: 'Secretariado'
       },
       {
-        texto: 'd) Criar um resultado visualmente impactante. ',
-        curso: 'Comunicação Visual'
+        texto: 'd) Fazer a forma mais inovadora e viável.',
+        curso: 'Informática'
+       
       }
     ]
   },
@@ -88,16 +91,17 @@ export const data = [
     titulo: '5- Como você lida com a aprendizagem de novas tecnologias? ',
     respostas: [
       {
-        texto: 'a) Exploro elas usando as da forma mais criativa e funcional.',
-        curso: 'Comunicação Visual'
+        texto: 'a) Sou adaptável a mudanças tecnológicas e foco na eficiência ao usá-las.',
+        curso: 'Informática'
+       
       },
       {
-        texto: 'b) Tenho interesse tanto na parte técnica quanto na apliacação prática.',
+        texto: 'b) Tenho interesse tanto na parte técnica quanto na aplicação prática.',
         curso: 'Administração'
       },
       {
-        texto: 'c) Adapto-me rapidamente ás mudanças tecnológicas e procuro usar elas da forma mais eficiente.',
-        curso: 'Informática'
+        texto: 'c) Exploro elas usando as da forma mais criativa e funcional.',
+        curso: 'Comunicação Visual'
       },
       {
         texto: 'd) Prefiro explorar a funcionalidade e aplicação.',
@@ -109,20 +113,21 @@ export const data = [
     titulo: '6- Qual dessas palavras descreve melhor a sua personalidade no ambiente de trabalho? ',
     respostas: [
       {
-        texto: 'a) Inovação.',
-        curso: 'Informática'
+        texto: 'a) Organização.',
+        curso: 'Secretariado'
       },
       {
-        texto: 'b) Liderança.',
+        texto: 'b) Criatividade.',
+        curso: 'Comunicação Visual'
+        
+      },
+      {
+        texto: 'c) Liderança.',
         curso: 'Administração'
       },
       {
-        texto: 'c) Criatividade.',
-        curso: 'Comunicação Visual'
-      },
-      {
-        texto: 'd) Organização.',
-        curso: 'Secretariado'
+        texto: 'd) Inovação.',
+        curso: 'Informática'
       }
     ]
   },
@@ -143,7 +148,7 @@ export const data = [
       },
       {
         texto: 'd) Combinar soluções técnicas com criatividade.',
-        curso: 'Secretariado'
+        curso: 'Informática'
       }
     ]
   },
@@ -159,7 +164,7 @@ export const data = [
         curso:'Secretariado'
       },
       {
-        texto: 'c) Aplicar conhecimentos em projetos com liberdade para mostrar suas hablidades criativas.',
+        texto: 'c) Aplico conhecimentos com liberdade para demonstrar criatividade.',
         curso: 'Comunicação Visual'
       },
       {
