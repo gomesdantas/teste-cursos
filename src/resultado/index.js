@@ -25,7 +25,6 @@ export default function Resultado() {
         break;
 
       case 'Informática':
-        alert('oi')
         navigate('/informatica');
         break;
 
@@ -39,8 +38,6 @@ export default function Resultado() {
 
     }
   }
-
-
 
 
   function agrupar(respostas) {
