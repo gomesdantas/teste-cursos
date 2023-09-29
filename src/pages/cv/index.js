@@ -16,6 +16,8 @@ export default function Cv() {
       <div className="faixa">
         <Welcome />
       </div>
+
+      <div className="meio">
       <div  id="container" className="container">
         <div className='left'>
           <div className='textos'>
@@ -100,6 +102,8 @@ export default function Cv() {
         </div>
 
       </div>
+      </div>
+    
     </div>
   )
 }

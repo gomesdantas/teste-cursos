@@ -3,8 +3,10 @@ export const data = [
     titulo: '1- Quando você se depara com um problema, qual é a melhor abordagem para resolvê-lo?',
     respostas: [
       {
-        texto: 'a) Encontrar maneiras eficientes de resolver.',
-        curso: 'Administração'
+
+        texto: 'a) Adotar uma abordagem prática.',
+        curso: 'Secretarido'
+        
       },
       {
         texto: 'b) Procurar soluções criativas e originais.',
@@ -15,8 +17,8 @@ export const data = [
         curso: 'Informática'
       },
       {
-        texto: 'd) Adotar uma abordagem prática.',
-        curso: 'Secretarido'
+        texto: 'd) Encontrar maneiras eficientes de resolver.',
+        curso: 'Administração'
       }
     ]
   },
@@ -77,7 +79,7 @@ export const data = [
         curso: 'Administração'
       },
       {
-        texto: 'c) Seguir as estapas de forma organizada.',
+        texto: 'c) Seguir as etapas de forma organizada.',
         curso: 'Secretariado'
       },
       {

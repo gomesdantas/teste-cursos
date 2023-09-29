@@ -15,6 +15,8 @@ return(
         <div className="faixa">
 <Welcome/>
         </div>
+
+        <div className="meio">
         <div id="container" className="container">
         <div className='left'>
         <div className='textos'>
@@ -102,6 +104,8 @@ return(
 </div>
 
       </div>
+        </div>
+  
     </div>
 )
 }

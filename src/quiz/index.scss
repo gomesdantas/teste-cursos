@@ -11,8 +11,7 @@
 
    background-color: rgb(255, 255, 255);
    color: rgb(0, 0, 0);
-  
-
+height: 100vh;
    .faixa {
       height: 80px;
       width: 100%;
@@ -31,16 +30,15 @@
       height: 87vh;
       padding: 200px;
       align-items: center;
-     
+     justify-content: center;
 
    }
 
    .texto {
-      padding: 0px 100px;
       width: 100%;
       height: 50vh;
-      margin-bottom: 70px;
- 
+    
+
    }
 
 
@@ -80,53 +78,61 @@ height: 40px;
 
    .image {
       width: 70%;
-      height: 190%;
-     padding: 0px 50px;
+      height: 130%;
+      max-height: 400px;
+   
    }
+
+.meio{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
 
    .voltar {
       padding: 0px 0px 1000px;
       color: #000;
    }
+
+   @media (max-width: 1200px) {
+      .quiz{
+       overflow: hidden;  
+      }
+      .container {
+         display: flex;
+         flex-direction: row;
+         padding: 0px;
+       
+      }
+   
+      .texto {
+      margin-left: -200px;
+      }
+   
+      .texto>h1 {
+         font-size: 25px;
+      }
+   
+      #texto2 {
+         font-size: 25px;
+         
+      }
+   
+      .texto>p {
+         
+         font-size: 14px;
+      }
+   
+   #image{
+      width: 200%;
+      margin-left: 50px;
+   }   
+   
+   
+      #teste-botao {
+         margin-left: 60px;
+         font-size: 13px;
+      }
+   }
 }
 
-@media (max-width: 768px) {
-   .quiz{
-    overflow: hidden;  
-   }
-   .container {
-      display: flex;
-      flex-direction: row;
-      padding: 0px;
-    
-   }
-
-   .texto {
-   margin-left: -200px;
-   }
-
-   .texto>h1 {
-      font-size: 25px;
-   }
-
-   #texto2 {
-      font-size: 25px;
-      
-   }
-
-   .texto>p {
-      
-      font-size: 14px;
-   }
-
-#image{
-   width: 200%;
-   margin-left: 50px;
-}   
-
-
-   #teste-botao {
-      margin-left: 60px;
-      font-size: 13px;
-   }
-}

@@ -1,12 +1,12 @@
 .info{
-
   background-image: url('../../../public/assets/images/image12.png');
   background-size: 20%;
   background-position: center;
   
+  min-height: 100vh;
   
       .faixa{
-          margin-bottom: 50px;
+       
             height: 80px;
            width: 100%;
             padding: 15px 40px;
@@ -16,12 +16,18 @@
           background-color: rgb(255, 255, 255);
            }
   
+           .meio{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           }
                    
   .container{
-      padding: 5px 100px;
+      padding: 0px 100px;
      display: flex;
      flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     width: 100%;
     height: 80vh;
     }
@@ -35,11 +41,12 @@
     .outros{
   
       display: flex;
-      padding: 10px 50px;
+      padding: 0px 50px;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       width:60%;
+      max-width: 400px;
       height: 200px;
       border: none;
       border-radius: 20px;
@@ -137,6 +144,7 @@
       display: flex;
     padding: 0px 40px;
       flex-direction: column;
+      margin-bottom: 25px;
     }
     
     .pontuacao>h5{
@@ -195,8 +203,7 @@
       margin-bottom: 10px;
       
     }
-  }
-
+    
   @media (max-width: 768px) {
 
     #container{
@@ -208,4 +215,5 @@ height: 160vh;
     #right{
      margin-top: 50px;
     }
+  }
   }

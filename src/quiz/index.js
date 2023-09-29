@@ -10,7 +10,9 @@ export default function Quiz() {
       <div className='faixa'>
       <Welcome/>
       </div>
-     <div className='container'>
+
+      <div className='meio'>
+      <div className='container'>
       <div className='texto'>
         <h1>TESTE</h1> 
         <h2 id="texto2">VOCACIONAL</h2>
@@ -24,6 +26,8 @@ export default function Quiz() {
       </div>
 <img id='image' className='image' src="/assets/images/profis-removebg-preview.png" alt="" />
      </div>
+      </div>
+    
       
     
     </div>

@@ -34,8 +34,8 @@ export default function Teste() {
       </div>
 
 
-
-      <div className='container'>
+<div className='meio'>
+<div className='container'>
         <div className='questions'>
 
           <p id='questao'>{data[perguntaAtual].titulo}</p>
@@ -64,6 +64,8 @@ export default function Teste() {
           </div>
         </div>
       </div>
+</div>
+      
     </div>
   )
 }
